@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400);
+
+
+body {
+
+    background-position:right;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    font-size: 38px;
+    color: #000038;
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+#Hours, #Minutes, #Seconds{
+    background-image:url("pexels-gradienta-7130469.jpg");
+    width:150px;
+    height: 150px;
+    border: solid red 1px;
+    color: rgb(70, 70, 70);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+#Hours:hover, #Minutes:hover, #Seconds:hover{
+    box-shadow: 3px 3px 5px rgb(0, 38, 255, 0.151);
+}
+
+h1 {
+    color: #7300ff8a;
+    transition: 2s;
+}
+
+h1:hover{
+    color: rgb(0, 82, 82, 0.685);
+}
+
+.footer{
+    margin-top: 50px;
+    opacity: 0.2;
+}
+
+.heading{
+    font-size: 30px;
+    color: #7300ff8a;
+    transition: 2s;
+}
+@media(max-width:600px){
+    #Hours, #Minutes, #Seconds{
+        width:50px;
+        height: 50px;
+    }
+}
+    
