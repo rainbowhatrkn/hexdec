@@ -1,0 +1,74 @@
+.hacker-style {
+    background-color: #000;
+    color: #0F0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    color: red;
+}
+
+.hacker-title {
+    font-family: 'Courier New', monospace;
+    text-align: center;
+}
+
+.hacker-form {
+    text-align: center;
+}
+
+.hacker-button {
+    background-color: #0F0;
+    color: #000;
+    border: 2px solid #0F0;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hacker-button:hover {
+    background-color: #060;
+}
+
+.hacker-text {
+    font-family: 'Courier New', monospace;
+}
+
+/* Autres styles restent inchangés */
+
+.rainbow-text {
+    font-family: 'Courier New', monospace;
+    font-size: 18px;
+    animation: rainbowAnimation 2s infinite;
+}
+
+/* Autres styles restent inchangés */
+
+.rainbow-border {
+    border: 2px solid;
+    border-image: linear-gradient(to right, red, lime, orange, orange, yellow, green, blue, blue, indigo, indigo, violet, violet, red, lime, orange, violet) 1;
+    animation: rainbowAnimation 2s infinite;
+}
+
+@keyframes rainbowAnimation {
+    0% { border-color: red; }
+    7% { border-color: lime; }
+    14% { border-color: orange; }
+    21% { border-color: orange; }
+    28% { border-color: yellow; }
+    35% { border-color: green; }
+    42% { border-color: blue; }
+    49% { border-color: blue; }
+    56% { border-color: indigo; }
+    63% { border-color: indigo; }
+    70% { border-color: violet; }
+    77% { border-color: violet; }
+    84% { border-color: red; }
+    91% { border-color: lime; }
+    98% { border-color: orange; }
+    100% { border-color: violet; }
+}}

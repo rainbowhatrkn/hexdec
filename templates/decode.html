@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Décodage</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="hacker-style">
+    <h1 class="hacker-title">Résultats du décodage</h1>
+    <div class="hacker-text">
+        <p>Décodage Hexadécimal:</p>
+        <p>{{ decoded_hex }}</p>
+        <p>Décodage Binaire:</p>
+        <p>{{ decoded_binary }}</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="https://development.guardiran.org/public/official-deface-page/dependencies/css/root.css" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="hacker-style">
+    <h1 class="hacker-title">Welcome to the Hacker World!</h1>
+    <link href='https://fonts.googleapis.com/css?family=DotGothic16' rel='stylesheet' type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Indie Flower' rel='stylesheet'>
+        <br><br></font><table border="2"><thead><tr><th colspan="2"><div id="guardiran-logo"><center><img draggable="false" src="https://trknaitools.replit.app/trkn.png" width=200 height=200 alt="Logo"></div></th></tr><tr><th colspan="2"><h3 align="center"><h3 align="center"><font color="SpringGreen" face="DotGothic16">Hex and Binary decode By -: <font color="red"></h3><div align="left"><font color=blue face="Indie Flower">trhacknon</font>
+        <p class="rainbow-border">Decode hexadecimal and binary codes separated by commas</p>
+        <form action="/decode" method="POST">
+            <input type="text" name="hex_code" placeholder="Hexadecimal (separated by commas)">
+            <br><br>
+            <input type="text" name="binary_code" placeholder="Binary (separated by commas)">
+            <br><br>
+            <button type="submit" class="hacker-button">Decode</button>
+        </form>
+</body>
+</html>
